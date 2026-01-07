@@ -1,13 +1,13 @@
 # On the Use of LLMs for Relevance Labelling
 
 This repository contains the data required to reproduce the results from our paper:  
-**“On the Use of LLMs for Relevance Labelling”**, submitted for review at TOIS.
+**“On the Use of LLMs for Relevance Labelling”**, accepted at TOIS.
 
 ---
 
 ## 📌 Introduction
 
-This repository supports reproducibility of the experiments reported in our study. It includes LLM-generated labels, manipulated passage files for gullibility tests, and the LLM-generated qrels for TREC runs. The work investigates the reliability, failure modes, and biases of LLMs when used for relevance judgement in IR evaluation.
+This repository supports the reproducibility of the experiments reported in our study. It includes LLM-generated labels, manipulated passage files for gullibility tests, and the LLM-generated qrels for TREC runs. The work investigates the reliability, failure modes, and biases of LLMs when used for relevance judgement in IR evaluation.
 
 ---
 
@@ -36,7 +36,7 @@ Most fields are self-explanatory, but here are two important ones that are used 
 Files are flat and contain the original (and manipulated passages in the case of gullibility tests) so analysis can be done directly to reproduce the results.
 
 
-### 📁 File Organization
+### 📁 File Organisation
 
 The files and scripts in this repository are organised into the following folders:
 
@@ -57,3 +57,17 @@ The folder `study-2-TREC-run-LLM-labels` contains qrels generated using nine dif
 `[Collection]_[LLMNameAndVersion]_qrels.txt`
 
 These files follow the standard TREC qrels format and can be used with the official TREC evaluation script.
+
+## 📚 Citation
+
+If you use the data in this repository, please cite our paper:
+
+```bibtex
+@article{alaofi2026llm-relevance,
+  title   = {On the Use of LLMs for Relevance Labelling},
+  author  = {Alaofi, Marwah and Thomas, Paul and Scholer, Falk and Sanderson, Mark},
+  journal = {ACM Transactions on Information Systems},
+  year    = {2026},
+  note    = {To appear}
+}
+
