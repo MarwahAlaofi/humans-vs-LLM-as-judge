@@ -63,7 +63,7 @@ These files follow the standard TREC qrels format and can be used with the offic
 If you use the data in this repository, please cite our paper:
 
 ```bibtex
-@article{alaofi2026llm-relevance,
+@article{alaofi2026on-the-use,
   title   = {On the Use of LLMs for Relevance Labelling},
   author  = {Alaofi, Marwah and Thomas, Paul and Scholer, Falk and Sanderson, Mark},
   journal = {ACM Transactions on Information Systems},
